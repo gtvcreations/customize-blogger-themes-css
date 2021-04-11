@@ -1,0 +1,183 @@
+/*! contempo-theme.css v2020-11-01-01 | MIT License | Copyright (c) 2020 Thiruvikraman Govindarajan | github.com/gtvcreations/customize-blogger-themes-css */
+
+/* Remove Tap Highlight */
+
+/* Essentially means a[href], or that the link actually goes somewhere */
+
+*:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:visited {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:hover {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Contact Form Widget */
+
+.contact-form-widget * {
+    box-sizing: border-box;
+}
+
+.contact-form-widget input, .contact-form-widget textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-form-widget input.contact-form-button.contact-form-button-submit {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+.contact-form-widget input.contact-form-button.contact-form-button-submit:hover {
+    background: #777;
+    color: #fff;
+}
+
+/* Social Share Widget */
+
+.svg-icon-24.sharing-link {
+    fill: #48b02c;
+}
+
+.svg-icon-24.sharing-facebook {
+    fill: #3b5998;
+}
+
+.svg-icon-24.sharing-twitter {
+    fill: #08a09e;
+}
+
+.svg-icon-24.sharing-pinterest {
+    fill: #bd081c;
+}
+
+.svg-icon-24.sharing-email {
+    fill: #fea002;
+}
+
+/* Featured Post Widget */
+
+div#FeaturedPost1 .post-header-line-1 {
+    display: none;
+}
+
+/* Statistics Counter Widget */
+
+.Stats {
+    text-align: center;
+}
+
+.Stats .counter-wrapper {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    direction: ltr;
+}
+
+.Stats img, .Stats span {
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.Stats img:last-child, .Stats span:last-child {
+    margin-right: 0px;
+}
+
+.Stats .graph-counter-wrapper {
+    color: #fff;
+}
+
+.Stats .digit {
+    background: url("//blogger.com/img/widgets/stats-flipper.png") no-repeat left !important;
+    border: 1px solid #fff;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    margin-left: -1px;
+    position: relative;
+    text-align: center;
+    width: 22px;
+}
+
+.Stats .blind-plate {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #000;
+    filter: alpha(opacity=65);
+    height: 0;
+    left: 0;
+    opacity: .65;
+    position: absolute;
+    top: 13px;
+    width: 22px;
+}
+
+.Stats .stage-0 {
+    background-position: 0 0 !important;
+}
+
+.Stats .stage-1 {
+    background-position: -22px 0 !important;
+}
+
+.Stats .stage-2 {
+    background-position: -44px 0 !important;
+}
+
+.Stats .stage-3 {
+    background-position: -66px 0 !important;
+}
+
+/* Embed Post Content */
+
+.separator {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+.separator::before {
+    display: block;
+    content: "";
+}
+
+.separator .separator-item, .separator iframe, .separator embed, .separator object, .separator video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.separator-21by9::before {
+    padding-top: 42.857143%;
+}
+
+.separator-16by9::before {
+    padding-top: 56.25%;
+}
+
+.separator-4by3::before {
+    padding-top: 75%;
+}
+
+.separator-1by1::before {
+    padding-top: 100%;
+}
